@@ -7,4 +7,23 @@
      --bs-body-font-family: 'Montserrat', sans-serif;
  }
 
- 
+ a {
+     color: var(--primary--color)
+ }
+
+ a:hover {
+     color: var(--primary--color)
+ }
+
+ /* use imports? */
+
+ /* Flyout navigation bar */
+ #navbar {
+     background-color: rgb(255, 247, 231);
+ }
+
+ .dropdown-nav__closeNavBtn {
+     top: 20px;
+     right: 16px;
+     background-color: rgba(255, 255, 255, 0.6);
+ }

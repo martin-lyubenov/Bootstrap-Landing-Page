@@ -17,10 +17,65 @@
 </head>
 
 <body>
-    
-    <header class="header p-3 position-absolute start-0 top-0 end-0 z-3">
-        
+
+    <header class="header p-3 position-absolute start-0 top-0 end-0 z-2 bg-black ">
+        <div class="d-flex justify-content-between align-items-center ">
+            <a href="/" class="text-decoration-none text-white fs-5 fw-bold">Test</a>
+            <div>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar" aria-expanded="false" aria-controls="navbar"
+                    aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                        class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </button>
+            </div>
+
+        </div>
     </header>
+
+    <nav class="collapse navbar-collapse dropdown-nav position-fixed top-0 start-0 bottom-0 end-0 z-3 " id="navbar">
+
+        <div class="container-xxl  d-flex align-items-center align-items-md-center  ">
+
+            <div class="row align-items-start ">
+                <div class="col-12 col-sm-4 mt-4 ">
+                    <a href="#" class="row text-decoration-none ">
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="" alt="" class="img-fluid " width="553" height="746" loading="lazy">
+                        </div>
+
+                        <div class="col-10">
+                            <h3>Amazing Flavour</h3>
+                            <p>Find out more </p>
+                            <p>Learn more
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </p>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+            <button class="navbar-toggler dropdown-nav__closeNavBtn position-absolute " type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false" aria-controls="navbar"
+                aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-x"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </button>
+        </div>
+
+
+    </nav>
 
 
 </body>
