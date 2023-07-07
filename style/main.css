@@ -96,8 +96,20 @@
      object-fit: cover;
  }
 
+ .steps-background{
+    background-color: #fefffa;
+ }
+
  /* Sections */
 
+
+/* Footer */
+
+.footer__content{
+    border-top: 1px solid var(--primary--color-highlight);
+}
+
+/* Footer */
 
  @media (min-width: 544px) {
      .container-custom {
