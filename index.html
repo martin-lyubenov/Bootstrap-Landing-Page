@@ -6,8 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- bootstrap styles -->
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js" defer></script>
+    <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js" defer></script> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"
+        defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"
+        defer></script>
+
+
 
     <!-- main stylesheet must -->
     <!-- must be after the bootstart link if you want to make any changes to the predefined bootstrap variables -->
@@ -21,7 +32,7 @@
 
     <!-- Header start -->
 
-    <header class="header p-3 position-absolute start-0 top-0 end-0 z-2">
+    <header class="header p-3 position-absolute start-0 top-0 end-0">
         <div class="d-flex justify-content-between align-items-center ">
             <a href="/" class="text-decoration-none text-white fs-5 fw-bold">Home</a>
             <div>
@@ -46,7 +57,7 @@
     <!-- Flyout menu start -->
 
 
-    <nav class="collapse navbar-collapse dropdown-nav position-fixed top-0 start-0 bottom-0 end-0 z-3 " id="navbar">
+    <nav class="collapse navbar-collapse dropdown-nav position-fixed top-0 start-0 bottom-0 end-0" id="navbar">
 
         <div class="container-xxl  d-flex align-items-center align-items-md-center  ">
 
@@ -136,7 +147,7 @@
 
     <section class="hero position-relative vh-100 overflow-hidden ">
 
-        <div class="hero__overlay position-absolute start-0 top-0 end-0 bottom-0 opacity-50 z-1 "></div>
+        <div class="hero__overlay position-absolute start-0 top-0 end-0 bottom-0"></div>
 
         <video playsinline muted autoplay loop loading="lazy" class="hero__video position-absolute top-50 start-50">
             <source src="./img/video (1080p).mp4" type="video/mp4">
@@ -154,7 +165,7 @@
         </div>
 
         <a href="#scroll-down"
-            class="hero__content-scroll-btn position-absolute start-50 z-3 text-light  d-flex flex-column align-items-center text-decoration-none ">
+            class="hero__content-scroll-btn position-absolute start-50 text-light  d-flex flex-column align-items-center text-decoration-none ">
             Explore
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                 class="bi bi-arrow-down-short" viewBox="0 0 16 16">

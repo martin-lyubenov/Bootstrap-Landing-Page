@@ -1,9 +1,9 @@
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
- @import url(./container-custom.css);
+ /* @import url(./container-custom.css);
  @import url(./flyout-navigation-bar.css);
  @import url(./hero-content.css);
  @import url(./sections.css);
- @import url(./footer.css);
+ @import url(./footer.css); */
 
  :root {
      --primary--color: #0a1118;
@@ -26,31 +26,38 @@
 
  /* Custom Container */
 
- /* .container-custom {
+ .container-custom {
      width: 100%;
      padding: 0 1rem;
      margin: 0 auto;
- } */
+ }
 
  /* Custom Container */
 
+
+ .header {
+     z-index: 20;
+ }
+
+
  /* Flyout navigation bar */
 
- /* #navbar {
+ #navbar {
      background-color: rgb(255, 247, 231);
+     z-index: 100;
  }
 
  .dropdown-nav__closeNavBtn {
      top: 20px;
      right: 16px;
      background-color: rgba(255, 255, 255, 0.6);
- } */
+ }
 
  /* Flyout navigation bar */
 
  /* Hero content */
 
- /* .hero {
+ .hero {
      background-color: var(--primary--color);
  }
 
@@ -64,15 +71,23 @@
 
  .hero__overlay {
      background-color: var(--primary--color);
+     z-index: 10;
+     opacity: 0.5;
+ }
+
+ .hero__content {
+     z-index: 20;
  }
 
  .hero__content-width {
      max-width: 540px;
+     z-index: 20;
  }
 
  .hero__content-scroll-btn {
      bottom: 30px;
      transform: translateX(-50%);
+     z-index: 20;
  }
 
  .hero__content-scroll-btn:hover {
@@ -82,7 +97,7 @@
 
  .hero__content-scroll-btn .bi {
      animation: bounce 0.7s infinite alternate;
- } */
+ }
 
  /* Hero content */
 
@@ -90,9 +105,9 @@
 
  /* Sections */
 
- /* .steps__content-width{
-    max-width: 450px;
-    margin: 0 auto;
+ .steps__content-width {
+     max-width: 450px;
+     margin: 0 auto;
  }
 
  .steps__section-img {
@@ -100,29 +115,30 @@
      object-fit: cover;
  }
 
- .steps-background{
-    background-color: #fefffa;
- } */
+ .steps-background {
+     background-color: #fefffa;
+ }
 
  /* Sections */
 
 
-/* Footer */
+ /* Footer */
 
-/* .footer__content{
-    border-top: 1px solid var(--primary--color-highlight);
-} */
+ .footer__content {
+     border-top: 1px solid var(--primary--color-highlight);
+     opacity: 0.5;
+ }
 
-/* Footer */
+ /* Footer */
 
- /* @media (min-width: 544px) {
+ @media (min-width: 544px) {
      .container-custom {
          width: 1140px;
      }
 
      .steps__section-img {
-        height: auto;
-    }
+         height: auto;
+     }
  }
 
 
@@ -156,4 +172,4 @@
      100% {
          transform: translateY(40%);
      }
- } */
+ }
