@@ -1,0 +1,44 @@
+.hero {
+    background-color: var(--primary--color);
+}
+
+.hero__video {
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.hero__overlay {
+    background-color: var(--primary--color);
+}
+
+.hero__content-width {
+    max-width: 540px;
+}
+
+.hero__content-scroll-btn {
+    bottom: 30px;
+    transform: translateX(-50%);
+}
+
+.hero__content-scroll-btn:hover {
+    color: var(--bs-light);
+    opacity: 0.8;
+}
+
+.hero__content-scroll-btn .bi {
+    animation: bounce 0.7s infinite alternate;
+}
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(40%);
+    }
+}

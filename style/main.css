@@ -1,4 +1,9 @@
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+ @import url(./container-custom.css);
+ @import url(./flyout-navigation-bar.css);
+ @import url(./hero-content.css);
+ @import url(./sections.css);
+ @import url(./footer.css);
 
  :root {
      --primary--color: #0a1118;
@@ -21,18 +26,17 @@
 
  /* Custom Container */
 
- .container-custom {
+ /* .container-custom {
      width: 100%;
      padding: 0 1rem;
      margin: 0 auto;
- }
+ } */
 
  /* Custom Container */
 
- /* use CSS imports? */
-
  /* Flyout navigation bar */
- #navbar {
+
+ /* #navbar {
      background-color: rgb(255, 247, 231);
  }
 
@@ -40,13 +44,13 @@
      top: 20px;
      right: 16px;
      background-color: rgba(255, 255, 255, 0.6);
- }
+ } */
 
  /* Flyout navigation bar */
 
  /* Hero content */
 
- .hero {
+ /* .hero {
      background-color: var(--primary--color);
  }
 
@@ -78,7 +82,7 @@
 
  .hero__content-scroll-btn .bi {
      animation: bounce 0.7s infinite alternate;
- }
+ } */
 
  /* Hero content */
 
@@ -86,7 +90,7 @@
 
  /* Sections */
 
- .steps__content-width{
+ /* .steps__content-width{
     max-width: 450px;
     margin: 0 auto;
  }
@@ -98,20 +102,20 @@
 
  .steps-background{
     background-color: #fefffa;
- }
+ } */
 
  /* Sections */
 
 
 /* Footer */
 
-.footer__content{
+/* .footer__content{
     border-top: 1px solid var(--primary--color-highlight);
-}
+} */
 
 /* Footer */
 
- @media (min-width: 544px) {
+ /* @media (min-width: 544px) {
      .container-custom {
          width: 1140px;
      }
@@ -152,4 +156,4 @@
      100% {
          transform: translateY(40%);
      }
- }
+ } */

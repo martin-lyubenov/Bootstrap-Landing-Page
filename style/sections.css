@@ -1,0 +1,20 @@
+.steps__content-width{
+    max-width: 450px;
+    margin: 0 auto;
+ }
+
+ .steps__section-img {
+     height: 240px;
+     object-fit: cover;
+ }
+
+ .steps-background{
+    background-color: #fefffa;
+ }
+
+ @media (min-width: 544px) {
+
+    .steps__section-img {
+       height: auto;
+   }
+}
